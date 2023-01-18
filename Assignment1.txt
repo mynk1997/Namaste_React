@@ -1,0 +1,5 @@
+Q1. What is Emmet?
+Emmet is a set of plug-ins for text editors that allow for high-speed coding and editing in HTML.
+Emmet is a web-developer's toolkit for boosting HTML & CSS code writing.Think of Emmet as shorthand.
+
+Q2.Difference between a Library and Framework?
