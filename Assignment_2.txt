@@ -1,0 +1,38 @@
+What is `NPM`?
+npm is a package manager for the JavaScript programming language maintained by npm, Inc. 
+npm is the default package manager for the JavaScript runtime environment Node.js. 
+It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry.
+
+What is `Parcel/Webpack`? Why do we need it?
+Parcel and Webpack are JS packages which are called bundlers. Their job is to minify, optimise, clean the code, 
+so that it becomes easier to send a request or receive the response from the server.
+
+What is 'parcel-cache'?
+parcel-cache stores information about the project when thae pacel builds it, so that the next time you build it, it builds faster.
+
+What is `npx`?
+npx is the execute command for npm.
+
+What is difference between `dependencies` vs `devDependencies`
+Dependencies are the packages installed which are used for the project to run. devDependencies are those packages which helps developers while developement.
+
+What is Tree Shaking?
+Tree shaking is a term commonly used within a JavaScript context to describe the removal of dead code.
+
+What is Hot Module Replacement?
+Hot Module Replacement (HMR) exchanges, adds, or removes modules while an application is running, without a full reload. 
+
+What is `.gitignore`? What should we add and not add into it?
+A gitignore file specifies intentionally untracked files that Git should ignore. You should add those files in gitignore which can be replicated in the server.
+
+What is the difference between `package.json` and `package-lock.json?
+package.son contains all the version of dependencies which are installed in your project. package-lock.json locks the exaxt present version of the build. You should not
+delete this file as it contains the information of the dependencies which are currently installed in the system.
+
+What is `node_modules` ? Is it a good idea to push that on git?
+node_modules are the files which npm installs when you install any packages. it contains are the dependencies and trasitive dependencies which the package needs. It is
+not a good idea to push it in git as it is a very heavy file and all the information about the dependencies can be accessed from package-lock.json file.
+
+What is 'dist'?
+dist folder contains all the minified files for the build.
+
